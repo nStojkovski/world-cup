@@ -9,8 +9,8 @@ import {MissingStickersPage} from "../missingstickers/missingstickers";
 })
 export class TabsPage {
 
-  tab1Root = HomePage;
-  tab2Root = MissingStickersPage;
+  tab1Root = MissingStickersPage;
+  tab2Root = HomePage;
   tab3Root = ContactPage;
 
   constructor() {

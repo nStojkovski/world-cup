@@ -14,6 +14,7 @@ import {CountryService} from "../CountryService";
 import {HttpModule} from "@angular/http";
 import {DataFinder} from "../datafinder";
 import { IonicStorageModule } from '@ionic/storage';
+import {CountrydetailsPage} from "../pages/countrydetails/countrydetails";
 
 @NgModule({
   declarations: [
@@ -21,8 +22,8 @@ import { IonicStorageModule } from '@ionic/storage';
     MissingStickersPage,
     ContactPage,
     HomePage,
+    CountrydetailsPage,
     TabsPage
-
   ],
   imports: [
     BrowserModule,
@@ -35,6 +36,7 @@ import { IonicStorageModule } from '@ionic/storage';
     MyApp,
     MissingStickersPage,
     ContactPage,
+    CountrydetailsPage,
     HomePage,
     TabsPage
   ],
