@@ -1,0 +1,173 @@
+[{
+  "CountryName": "Macedonia",
+  "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
+  "CountryStickers": [
+    [{
+      "StickerNumber": 1,
+      "PlayerName": "Player name 1",
+      "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+    },
+      {
+        "StickerNumber": 2,
+        "PlayerName": "Player name 2",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+
+      },
+      {
+        "StickerNumber": 3,
+        "PlayerName": "Player name 3",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      }, {
+      "StickerNumber": 4,
+      "PlayerName": "Player name 4",
+      "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+    },
+      {
+        "StickerNumber": 5,
+        "PlayerName": "Player name 5",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+      {
+        "StickerNumber": 6,
+        "PlayerName": "Player name 6",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      }
+    ],
+    [{
+      "StickerNumber": 7,
+      "PlayerName": "Player name 7",
+      "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+    },
+      {
+        "StickerNumber": 8,
+        "PlayerName": "Player name 7",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+      {
+        "StickerNumber": 9,
+        "PlayerName": "Player name 7",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+      {},
+      {},
+      {}
+    ]
+  ]
+},
+  {
+    "CountryName": "England",
+    "CountryFlag": "https://upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/1280px-Flag_of_England.svg.png",
+    "CountryStickers": [
+      [{
+        "StickerNumber": 1,
+        "PlayerName": "Player name 1",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+        {
+          "StickerNumber": 2,
+          "PlayerName": "Player name 2",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+
+        },
+        {
+          "StickerNumber": 3,
+          "PlayerName": "Player name 3",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        }, {
+        "StickerNumber": 4,
+        "PlayerName": "Player name 4",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+        {
+          "StickerNumber": 5,
+          "PlayerName": "Player name 5",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {
+          "StickerNumber": 6,
+          "PlayerName": "Player name 6",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        }
+      ],
+      [{
+        "StickerNumber": 7,
+        "PlayerName": "Player name 7",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+        {
+          "StickerNumber": 8,
+          "PlayerName": "Player name 7",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {
+          "StickerNumber": 9,
+          "PlayerName": "Player name 7",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {
+          "StickerNumber": 100,
+          "PlayerName": "Player name 7",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {},
+        {}
+      ]
+    ]
+  },
+  {
+    "CountryName": "Russia",
+    "CountryFlag": "https://upload.wikimedia.org/wikipedia/en/archive/f/f3/20120812153730%21Flag_of_Russia.svg",
+    "CountryStickers": [
+      [{
+        "StickerNumber": 1,
+        "PlayerName": "Player name 1",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+        {
+          "StickerNumber": 2,
+          "PlayerName": "Player name 2",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+
+        },
+        {
+          "StickerNumber": 3,
+          "PlayerName": "Player name 3",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        }, {
+        "StickerNumber": 4,
+        "PlayerName": "Player name 4",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+        {
+          "StickerNumber": 5,
+          "PlayerName": "Player name 5",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {
+          "StickerNumber": 6,
+          "PlayerName": "Player name 6",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        }
+      ],
+      [{
+        "StickerNumber": 7,
+        "PlayerName": "Player name 7",
+        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+      },
+        {
+          "StickerNumber": 8,
+          "PlayerName": "Player name 7",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {
+          "StickerNumber": 9,
+          "PlayerName": "Player name 7",
+          "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png"
+        },
+        {},
+        {},
+        {}
+      ]
+    ]
+  }
+]

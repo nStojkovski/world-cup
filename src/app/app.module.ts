@@ -10,6 +10,10 @@ import { TabsPage } from '../pages/tabs/tabs';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import {MissingStickersPage} from "../pages/missingstickers/missingstickers";
+import {CountryService} from "../CountryService";
+import {HttpModule} from "@angular/http";
+import {DataFinder} from "../datafinder";
+import { IonicStorageModule } from '@ionic/storage';
 
 @NgModule({
   declarations: [
@@ -22,7 +26,9 @@ import {MissingStickersPage} from "../pages/missingstickers/missingstickers";
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp)
+    HttpModule,
+    IonicModule.forRoot(MyApp),
+    IonicStorageModule.forRoot()
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -35,6 +41,8 @@ import {MissingStickersPage} from "../pages/missingstickers/missingstickers";
   providers: [
     StatusBar,
     SplashScreen,
+    CountryService,
+    DataFinder,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
