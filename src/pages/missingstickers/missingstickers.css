@@ -1,0 +1,22 @@
+.card-background-page ion-card {
+  position: relative;
+  text-align: center; }
+.card-background-page ion-card img {
+  opacity: 0.23; }
+.card-background-page .card-title {
+  position: absolute;
+  top: 8%;
+  width: 100%;
+  font-weight: bold;
+  color: black;
+  font-family: "Titillium Web"; }
+.card-background-page ion-col {
+  padding: 0px; }
+.card-background-page .card-md {
+  margin: 0 5px 6px 0;
+  width: calc(100% - 7px); }
+.card-background-page ion-row {
+  padding: 0px;
+  margin: 0px; }
+
+/*# sourceMappingURL=missingstickers.css.map */

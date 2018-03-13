@@ -1,0 +1,36 @@
+.card-background-page {
+
+  ion-card {
+    position: relative;
+    text-align: center;
+  }
+
+  ion-card img{
+    opacity: 0.23;
+  }
+
+  .card-title {
+    position: absolute;
+    top: 18%;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    font-family: "Titillium Web";
+  }
+
+  ion-col{
+    padding: 0px;
+  }
+
+  .card-md{
+    margin: 0 5px 6px 0;
+    width: calc(100% - 7px);
+  }
+
+  ion-row{
+    padding: 0px;
+    margin: 0px;
+  }
+
+
+}
