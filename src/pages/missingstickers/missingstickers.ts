@@ -19,8 +19,8 @@ export class MissingStickersPage implements OnInit {
      */
     this.dataFinder.getJSONDataAsync("./assets/data/countries.json").then(data => {
       this.countries = data;
+      console.log(this.countries);
     });
-
   }
 
   ngOnInit() {
@@ -31,28 +31,33 @@ export class MissingStickersPage implements OnInit {
       if (val == null) {
         this.storage.set("appFirstRun", false);
         for (let i = 0; i < 3; i++) {
-          this.storage.set(i.toString(), this.countries[i]);
+          this.storage.set(this.countries[i].CountryId, this.countries[i]);
         }
       }
       else {
         for (let i = 0; i < 3; i++) {
-          this.storage.get(i.toString()).then((val) => {
+          this.storage.get(this.countries[i].CountryId).then((val) => {
             this.countries[i] = val;
           });
         }
       }
     });
     console.log(this.countries);
+
   }
 
-  public removeSticker(i, j, k) {
-    this.countries[i].CountryStickers[j][k].visible = false;
-    this.setDatabase();
+  public removeSticker(i, j) {
+    this.countries[i].CountryStickers[j].visible = false;
+    this.setDatabseForCurrentElement(i);
+  }
+
+  private setDatabseForCurrentElement(i){
+    this.storage.set(this.countries[i].CountryId, this.countries[i]);
   }
 
   private setDatabase() {
     for (let i = 0; i < 3; i++) {
-      this.storage.set(i.toString(), this.countries[i]);
+      this.storage.set(this.countries[i].CountryId, this.countries[i]);
     }
   }
 

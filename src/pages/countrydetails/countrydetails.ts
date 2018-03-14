@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
-import {Country} from "../../Country";
+import {Storage} from '@ionic/storage';
+
 
 @IonicPage()
 @Component({
@@ -9,22 +10,18 @@ import {Country} from "../../Country";
 })
 export class CountrydetailsPage {
 
-  country;
+  private countryStickers: any;
+  private country: any;
 
-  constructor(public navCtrl: NavController, public navParams: NavParams) {
-   console.log(navParams.get("countryJson"));
-   var list =  navParams.get("countryJson").CountryStickers;
-   var newList = [];
-   for(var i=0; i<list.length; i++){
-     newList = newList.concat(list[i]);
-     console.log(list[i]);
-   }
-   this.country = newList;
-   console.log(newList);
+  constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage) {
+    this.country = navParams.get("countryJson");
+    this.countryStickers =  this.country.CountryStickers;
   }
 
-  ionViewDidLoad() {
-    console.log('ionViewDidLoad CountrydetailsPage');
+  public toggleStickerVisible(i){
+    this.countryStickers[i].visible = !this.countryStickers[i].visible;
+    this.storage.set(this.country.CountryId, this.countryStickers);
+    console.log(this.storage.get(this.country.CountryId));
   }
 
 }

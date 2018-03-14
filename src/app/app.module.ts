@@ -44,6 +44,7 @@ import {CountrydetailsPage} from "../pages/countrydetails/countrydetails";
     StatusBar,
     SplashScreen,
     CountryService,
+    Storage,
     DataFinder,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
