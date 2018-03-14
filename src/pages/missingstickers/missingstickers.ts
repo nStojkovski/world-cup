@@ -17,15 +17,15 @@ export class MissingStickersPage implements OnInit {
     /*
      If you want to reset the database uncomment this code below
      */
-    // this.dataFinder.getJSONDataAsync("./assets/data/countries.json").then(data => {
-    //   this.countries = data;
-    // });
+    this.dataFinder.getJSONDataAsync("./assets/data/countries.json").then(data => {
+      this.countries = data;
+    });
 
   }
 
   ngOnInit() {
 
-    // this.storage.set("appFirstRun", null);
+    this.storage.set("appFirstRun", null);
     this.storage.get('appFirstRun').then((val) => {
       console.log("THIS IS THE VAL: " + val);
       if (val == null) {
