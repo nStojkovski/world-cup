@@ -10,7 +10,9 @@ import {CountrydetailsPage} from "../countrydetails/countrydetails";
 })
 export class MissingStickersPage implements OnInit {
 
-  countries = [];
+  private countries = [];
+  private allStickers = 0;
+  private missingStickers = 0;
 
   constructor(public navCtrl: NavController, public dataFinder: DataFinder, private storage: Storage) {
 
@@ -24,10 +26,10 @@ export class MissingStickersPage implements OnInit {
   }
 
   ngOnInit() {
-
     this.storage.set("appFirstRun", null);
     this.storage.get('appFirstRun').then((val) => {
       console.log("THIS IS THE VAL: " + val);
+      this.getAllStickers();
       if (val == null) {
         this.storage.set("appFirstRun", false);
         for (let i = 0; i < 3; i++) {
@@ -39,6 +41,7 @@ export class MissingStickersPage implements OnInit {
           this.storage.get(this.countries[i].CountryId).then((val) => {
             this.countries[i] = val;
           });
+          console.log("val = " + val);
         }
       }
     });
@@ -49,6 +52,7 @@ export class MissingStickersPage implements OnInit {
   public removeSticker(i, j) {
     this.countries[i].CountryStickers[j].visible = false;
     this.setDatabseForCurrentElement(i);
+    this.getAllStickers();
   }
 
   private setDatabseForCurrentElement(i){
@@ -65,6 +69,29 @@ export class MissingStickersPage implements OnInit {
     this.navCtrl.push(CountrydetailsPage, {
       countryJson: this.countries[i]
     })
+  }
+
+  private getAllStickers(){
+    let missing = 0;
+    let all = 0;
+    for(let i=0; i<3; i++){
+      this.storage.get(this.countries[i].CountryId).then(
+        (value => {
+          for(let j=0; j<value.CountryStickers.length; j++){
+            if(value.CountryStickers[j].visible){
+              missing++;
+            }
+            all++;
+          }
+        })).then(()=>{
+          this.allStickers = all;
+          this.missingStickers = missing;
+          console.log(this.missingStickers);
+      });
+    }
+    // console.log(missing);
+    // console.log(all);
+    // this.missingStickers = (this.allStickers - this.missingStickers);
   }
 
 }
