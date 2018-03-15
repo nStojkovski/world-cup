@@ -7,19 +7,16 @@
 </ion-header>
 
 
-<ion-content padding>
+<ion-content class="card-background-page" padding>
 
   <div *ngFor="let country of countries; let i = index">
     <img style="height: 15px; width: 30px;" src="{{country.CountryFlag}}">
     <h4 style="display: inline-block">{{country.CountryName}}</h4>
-    <ion-icon style="float: right" (click)="detailsPage(i)"
-              ios="ios-arrow-round-forward" md="md-arrow-round-forward">
-    </ion-icon>
 
     <ion-grid>
       <ion-row>
         <ng-container *ngFor="let player of country.CountryStickers; let j = index">
-          <ion-col *ngIf="player.visible" (click)="removeSticker(i,j)" col-2>
+          <ion-col *ngIf="player.duplicate1" col-2>
             <ion-card>
               <img
                 src="{{player.CountryFlag}}"/>
@@ -33,7 +30,7 @@
     <hr>
   </div>
 
-  <button (click)="goToDuplicatesPage()" ion-button icon-only>
+  <button (click)="goToChooseDetailsPage()" ion-button icon-only>
     <ion-icon name="md-add"></ion-icon>
   </button>
 

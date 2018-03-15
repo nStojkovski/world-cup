@@ -26,10 +26,9 @@ export class MissingStickersPage implements OnInit {
   }
 
   ngOnInit() {
-    this.storage.set("appFirstRun", null);
+    // this.storage.set("appFirstRun", null);
     this.storage.get('appFirstRun').then((val) => {
-      console.log("THIS IS THE VAL: " + val);
-      this.getAllStickers();
+      // this.getAllStickers();
       if (val == null) {
         this.storage.set("appFirstRun", false);
         for (let i = 0; i < 3; i++) {
@@ -50,18 +49,13 @@ export class MissingStickersPage implements OnInit {
   public removeSticker(i, j) {
     this.countries[i].CountryStickers[j].visible = false;
     this.setDatabseForCurrentElement(i);
-    this.getAllStickers();
+    // this.getAllStickers();
   }
 
   private setDatabseForCurrentElement(i){
     this.storage.set(this.countries[i].CountryId, this.countries[i]);
   }
 
-  private setDatabase() {
-    for (let i = 0; i < 3; i++) {
-      this.storage.set(this.countries[i].CountryId, this.countries[i]);
-    }
-  }
 
   public detailsPage(i) {
     this.navCtrl.push(CountrydetailsPage, {

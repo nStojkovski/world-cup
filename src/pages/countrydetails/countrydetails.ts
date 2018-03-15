@@ -10,18 +10,14 @@ import {Storage} from '@ionic/storage';
 })
 export class CountrydetailsPage {
 
-  private countryStickers: any;
   private country: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams, private storage: Storage) {
     this.country = navParams.get("countryJson");
-    this.countryStickers =  this.country.CountryStickers;
   }
 
   public toggleStickerVisible(i){
-    this.countryStickers[i].visible = !this.countryStickers[i].visible;
-    this.storage.set(this.country.CountryId, this.countryStickers);
-    console.log(this.storage.get(this.country.CountryId));
-  }
+    this.country.CountryStickers[i].visible = !this.country.CountryStickers[i].visible;
+    this.storage.set(this.country.CountryId, this.country);}
 
 }
