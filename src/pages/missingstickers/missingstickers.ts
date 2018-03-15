@@ -41,11 +41,9 @@ export class MissingStickersPage implements OnInit {
           this.storage.get(this.countries[i].CountryId).then((val) => {
             this.countries[i] = val;
           });
-          console.log("val = " + val);
         }
       }
     });
-    console.log(this.countries);
 
   }
 

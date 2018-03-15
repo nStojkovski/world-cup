@@ -15,6 +15,8 @@ import {HttpModule} from "@angular/http";
 import {DataFinder} from "../datafinder";
 import { IonicStorageModule } from '@ionic/storage';
 import {CountrydetailsPage} from "../pages/countrydetails/countrydetails";
+import {DuplicatesPage} from "../pages/duplicates/duplicates";
+import {ChooseDuplicatesPage} from "../pages/choose-duplicates/choose-duplicates";
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import {CountrydetailsPage} from "../pages/countrydetails/countrydetails";
     ContactPage,
     HomePage,
     CountrydetailsPage,
+    ChooseDuplicatesPage,
+    DuplicatesPage,
     TabsPage
   ],
   imports: [
@@ -36,7 +40,9 @@ import {CountrydetailsPage} from "../pages/countrydetails/countrydetails";
     MyApp,
     MissingStickersPage,
     ContactPage,
+    DuplicatesPage,
     CountrydetailsPage,
+    ChooseDuplicatesPage,
     HomePage,
     TabsPage
   ],

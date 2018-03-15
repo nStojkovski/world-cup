@@ -1,0 +1,40 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>duplicates</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <div *ngFor="let country of countries; let i = index">
+    <img style="height: 15px; width: 30px;" src="{{country.CountryFlag}}">
+    <h4 style="display: inline-block">{{country.CountryName}}</h4>
+    <ion-icon style="float: right" (click)="detailsPage(i)"
+              ios="ios-arrow-round-forward" md="md-arrow-round-forward">
+    </ion-icon>
+
+    <ion-grid>
+      <ion-row>
+        <ng-container *ngFor="let player of country.CountryStickers; let j = index">
+          <ion-col *ngIf="player.visible" (click)="removeSticker(i,j)" col-2>
+            <ion-card>
+              <img
+                src="{{player.CountryFlag}}"/>
+              <div class="card-title">{{player.StickerNumber}}</div>
+            </ion-card>
+          </ion-col>
+        </ng-container>
+      </ion-row>
+    </ion-grid>
+
+    <hr>
+  </div>
+
+  <button (click)="goToDuplicatesPage()" ion-button icon-only>
+    <ion-icon name="md-add"></ion-icon>
+  </button>
+
+</ion-content>

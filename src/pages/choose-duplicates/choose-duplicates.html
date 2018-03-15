@@ -1,0 +1,26 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Choose Duplicates</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+
+  <div *ngFor="let country of countries; let i = index">
+    <img style="height: 15px; width: 30px;" src="{{country.CountryFlag}}">
+    <h4 style="display: inline-block">{{country.CountryName}}</h4>
+
+
+    <ion-list>
+      <ion-item  *ngFor="let player of country.CountryStickers; let j = index">
+        <ion-label>{{ player.PlayerName }} = {{player.isDuplicate}}</ion-label>
+        <ion-toggle checked="false" [(ngModel)]="player.isDuplicate" (click)="toggleStickerVisible(i,j)"></ion-toggle>
+      </ion-item>
+    </ion-list>
+
+    <hr>
+  </div>
+
+</ion-content>
