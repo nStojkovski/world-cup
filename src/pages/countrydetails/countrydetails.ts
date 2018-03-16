@@ -2,7 +2,6 @@ import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import {Storage} from '@ionic/storage';
 
-
 @IonicPage()
 @Component({
   selector: 'page-countrydetails',
@@ -16,8 +15,10 @@ export class CountrydetailsPage {
     this.country = navParams.get("countryJson");
   }
 
+  //vidi so async / await
   public toggleStickerVisible(i){
     this.country.CountryStickers[i].visible = !this.country.CountryStickers[i].visible;
-    this.storage.set(this.country.CountryId, this.country);}
+    this.storage.set(this.country.CountryId, this.country);
+  }
 
 }

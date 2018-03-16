@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {NavController} from 'ionic-angular';
+import {Events, NavController} from 'ionic-angular';
 import {DataFinder} from "../../datafinder";
 import {Storage} from '@ionic/storage';
 import {CountrydetailsPage} from "../countrydetails/countrydetails";
@@ -13,8 +13,11 @@ export class MissingStickersPage implements OnInit {
   private countries = [];
   private allStickers = 0;
   private missingStickers = 0;
+  private missing = [];
+  private all = [];
+  // private nav;
 
-  constructor(public navCtrl: NavController, public dataFinder: DataFinder, private storage: Storage) {
+  constructor(public navCtrl: NavController, public dataFinder: DataFinder, private storage: Storage, eventsControl: Events) {
 
     /*
      If you want to reset the database uncomment this code below
@@ -23,6 +26,16 @@ export class MissingStickersPage implements OnInit {
       this.countries = data;
       console.log(this.countries);
     });
+    // this.nav = this.navCtrl;
+    this.navCtrl.viewDidEnter.subscribe((view) => {
+      console.log(view.instance.constructor.name);
+      this.getAllStickers();
+    })
+  }
+
+
+  ionViewDidEnter(){
+
   }
 
   ngOnInit() {
@@ -42,18 +55,21 @@ export class MissingStickersPage implements OnInit {
           });
         }
       }
+    }).then(() => {
+      this.getAllStickers();
     });
 
   }
 
   public removeSticker(i, j) {
     this.countries[i].CountryStickers[j].visible = false;
-    this.setDatabseForCurrentElement(i);
-    // this.getAllStickers();
+    this.setDatabaseForCurrentElement(i);
   }
 
-  private setDatabseForCurrentElement(i){
-    this.storage.set(this.countries[i].CountryId, this.countries[i]);
+  private setDatabaseForCurrentElement(i){
+    this.storage.set(this.countries[i].CountryId, this.countries[i]).then(() =>{
+      this.getAllStickers();
+    });
   }
 
 
@@ -75,15 +91,16 @@ export class MissingStickersPage implements OnInit {
             }
             all++;
           }
+
         })).then(()=>{
           this.allStickers = all;
           this.missingStickers = missing;
-          console.log(this.missingStickers);
+          // this.all.push(all);
+          // this.missing.push(missing)
+          console.log("missing = " + this.missing);
+          console.log("all = " + this.all);
       });
     }
-    // console.log(missing);
-    // console.log(all);
-    // this.missingStickers = (this.allStickers - this.missingStickers);
   }
 
 }
