@@ -19,7 +19,7 @@
           <ion-col *ngIf="player.duplicate1" col-2>
             <ion-card>
               <img
-                src="{{player.CountryFlag}}"/>
+                src="{{country.CountryFlag}}"/>
               <div class="card-title">{{player.StickerNumber}}</div>
             </ion-card>
           </ion-col>
@@ -29,7 +29,6 @@
 
     <hr>
   </div>
-
 
 
   <ion-fab bottom right (click)="goToChooseDetailsPage()">

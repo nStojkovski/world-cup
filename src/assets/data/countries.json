@@ -1,19 +1,17 @@
 [{
   "CountryName": "Macedonia",
-  "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
+  "CountryFlag": "../../assets/country-flags/argentina.png",
   "CountryId" : "1",
   "CountryStickers": [
     {
       "StickerNumber": 1,
       "PlayerName": "Player name 1",
-      "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
       "visible" : true,
       "duplicate1" : false
     },
       {
         "StickerNumber": 2,
         "PlayerName": "Player name 2",
-        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
         "visible" : true,
         "duplicate1" : false
 
@@ -21,48 +19,41 @@
       {
         "StickerNumber": 3,
         "PlayerName": "Player name 3",
-        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
         "visible" : true,
         "duplicate1" : false
       }, {
       "StickerNumber": 4,
       "PlayerName": "Player name 4",
-      "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
       "visible" : true,
       "duplicate1" : false
     },
       {
         "StickerNumber": 5,
         "PlayerName": "Player name 5",
-        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
         "visible" : true,
         "duplicate1" : false
       },
       {
         "StickerNumber": 6,
         "PlayerName": "Player name 6",
-        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
         "visible" : true,
         "duplicate1" : false
       },
     {
       "StickerNumber": 7,
       "PlayerName": "Player name 7",
-      "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
       "visible" : true,
       "duplicate1" : false
     },
       {
         "StickerNumber": 8,
         "PlayerName": "Player name 7",
-        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
         "visible" : true,
         "duplicate1" : false
       },
       {
         "StickerNumber": 9,
         "PlayerName": "Player name 7",
-        "CountryFlag": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Flag_of_Macedonia.svg/2000px-Flag_of_Macedonia.svg.png",
         "visible" : true,
         "duplicate1" : false
       }

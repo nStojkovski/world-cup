@@ -38,7 +38,7 @@ export class MissingStickersPage implements OnInit {
       this.countries = data;
     }).then(() => {
       this.storage.get('appFirstRun').then((val) => {
-        if (val == null) {
+        if (val != null) {
           this.storage.set("appFirstRun", false);
           for (let i = 0; i < 3; i++) {
             this.storage.set(this.countries[i].CountryId, this.countries[i]);

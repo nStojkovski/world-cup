@@ -25,7 +25,7 @@
         <ion-col *ngIf="player.visible" (click)="removeSticker(i,j)" col-2>
           <ion-card>
             <img
-              src="{{player.CountryFlag}}"/>
+              src="{{country.CountryFlag}}"/>
             <div class="card-title">{{player.StickerNumber}}</div>
           </ion-card>
         </ion-col>
@@ -34,7 +34,6 @@
     </ion-grid>
     <hr>
   </div>
-
 
 </ion-content>
 
