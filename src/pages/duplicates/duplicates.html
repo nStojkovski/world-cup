@@ -30,8 +30,11 @@
     <hr>
   </div>
 
-  <button (click)="goToChooseDetailsPage()" ion-button icon-only>
-    <ion-icon name="md-add"></ion-icon>
-  </button>
+
+
+  <ion-fab bottom right (click)="goToChooseDetailsPage()">
+    <button ion-fab color="default"> <ion-icon  ios="logo-buffer" md="logo-buffer"></ion-icon></button>
+  </ion-fab>
+
 
 </ion-content>

@@ -17,6 +17,7 @@ import { IonicStorageModule } from '@ionic/storage';
 import {CountrydetailsPage} from "../pages/countrydetails/countrydetails";
 import {DuplicatesPage} from "../pages/duplicates/duplicates";
 import {ChooseDuplicatesPage} from "../pages/choose-duplicates/choose-duplicates";
+import {HeaderColor} from "@ionic-native/header-color";
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import {ChooseDuplicatesPage} from "../pages/choose-duplicates/choose-duplicates
     CountryService,
     Storage,
     DataFinder,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    {provide: ErrorHandler, useClass: IonicErrorHandler},
+    HeaderColor
   ]
 })
 export class AppModule {}

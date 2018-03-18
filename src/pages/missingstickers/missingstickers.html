@@ -2,7 +2,9 @@
   <ion-navbar>
     <ion-title>
       Missing Stickers
-      {{missingStickers}}/{{allStickers}}
+      <div style="float: right">
+        {{missingStickers}}/{{allStickers}}
+      </div>
     </ion-title>
   </ion-navbar>
 </ion-header>
@@ -12,8 +14,9 @@
   <div *ngFor="let country of countries; let i = index">
     <img style="height: 15px; width: 30px;" src="{{country.CountryFlag}}">
     <h4 style="display: inline-block">{{country.CountryName}}</h4>
-    <ion-icon style="float: right" (click)="detailsPage(i)"
-              ios="ios-arrow-round-forward" md="md-arrow-round-forward">
+    <h6  style="display: inline-block; font-weight: 300">({{missing[i]}}/{{all[i]}})</h6>
+    <ion-icon style="float: right; margin-top: 21px" (click)="detailsPage(i)"
+              ios="ios-create" md="md-create">
     </ion-icon>
 
     <ion-grid>
@@ -29,7 +32,6 @@
         </ng-container>
       </ion-row>
     </ion-grid>
-
     <hr>
   </div>
 

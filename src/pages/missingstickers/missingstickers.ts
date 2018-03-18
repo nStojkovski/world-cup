@@ -15,55 +15,53 @@ export class MissingStickersPage implements OnInit {
   private missingStickers = 0;
   private missing = [];
   private all = [];
-  // private nav;
+  private firstAppRun = true;
 
-  constructor(public navCtrl: NavController, public dataFinder: DataFinder, private storage: Storage, eventsControl: Events) {
-
-    /*
-     If you want to reset the database uncomment this code below
-     */
-    this.dataFinder.getJSONDataAsync("./assets/data/countries.json").then(data => {
-      this.countries = data;
-      console.log(this.countries);
-    });
-    // this.nav = this.navCtrl;
-    this.navCtrl.viewDidEnter.subscribe((view) => {
-      console.log(view.instance.constructor.name);
-      this.getAllStickers();
-    })
-  }
+  constructor(public navCtrl: NavController, public dataFinder: DataFinder, private storage: Storage, eventsControl: Events) {}
 
 
   ionViewDidEnter(){
-
+    console.log(this.firstAppRun);
+    if(!this.firstAppRun){
+      this.getAllStickers();
+    }
   }
 
-  ngOnInit() {
-    // this.storage.set("appFirstRun", null);
-    this.storage.get('appFirstRun').then((val) => {
-      // this.getAllStickers();
-      if (val == null) {
-        this.storage.set("appFirstRun", false);
-        for (let i = 0; i < 3; i++) {
-          this.storage.set(this.countries[i].CountryId, this.countries[i]);
-        }
-      }
-      else {
-        for (let i = 0; i < 3; i++) {
-          this.storage.get(this.countries[i].CountryId).then((val) => {
-            this.countries[i] = val;
-          });
-        }
-      }
-    }).then(() => {
-      this.getAllStickers();
-    });
+ async ngOnInit() {
+   this.populateCountriesList();
+  }
 
+
+
+  private populateCountriesList(){
+    this.dataFinder.getJSONDataAsync("./assets/data/countries.json").then(data => {
+      this.countries = data;
+    }).then(() => {
+      this.storage.get('appFirstRun').then((val) => {
+        if (val == null) {
+          this.storage.set("appFirstRun", false);
+          for (let i = 0; i < 3; i++) {
+            this.storage.set(this.countries[i].CountryId, this.countries[i]);
+          }
+        }
+        else {
+          for (let i = 0; i < 3; i++) {
+            this.storage.get(this.countries[i].CountryId).then((val) => {
+              this.countries[i] = val;
+            });
+          }
+        }
+      }).then(() => {
+        this.getAllStickers();
+      });
+      this.firstAppRun = false;
+    });
   }
 
   public removeSticker(i, j) {
     this.countries[i].CountryStickers[j].visible = false;
     this.setDatabaseForCurrentElement(i);
+
   }
 
   private setDatabaseForCurrentElement(i){
@@ -75,30 +73,36 @@ export class MissingStickersPage implements OnInit {
 
   public detailsPage(i) {
     this.navCtrl.push(CountrydetailsPage, {
-      countryJson: this.countries[i]
+      countryJson: this.countries,
+      index: i
     })
   }
 
   private getAllStickers(){
     let missing = 0;
     let all = 0;
+    let missingPerCountry = 0;
+    let allPerCountry = 0;
+    this.all = [];
+    this.missing = [];
     for(let i=0; i<3; i++){
       this.storage.get(this.countries[i].CountryId).then(
         (value => {
+          missingPerCountry = 0;
+          allPerCountry = value.CountryStickers.length;
           for(let j=0; j<value.CountryStickers.length; j++){
             if(value.CountryStickers[j].visible){
-              missing++;
+              missingPerCountry++;
             }
-            all++;
           }
+          missing += missingPerCountry;
+          all += allPerCountry;
 
+          this.all.push(allPerCountry);
+          this.missing.push(missingPerCountry);
         })).then(()=>{
           this.allStickers = all;
           this.missingStickers = missing;
-          // this.all.push(all);
-          // this.missing.push(missing)
-          console.log("missing = " + this.missing);
-          console.log("all = " + this.all);
       });
     }
   }
