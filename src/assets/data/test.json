@@ -1,7 +1,770 @@
 [
   {
+    "CountryName": "Serbia",
+    "CountryFlag": "../../assets/country-flags/serbia.png",
+    "CountryId" : "1",
+    "CountryStickers": [
+      {
+        "StickerNumber": 412,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 413,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 414,
+        "PlayerName": "Vladimir Stojkovic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 415,
+        "PlayerName": "Branislav Ivanovic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 416,
+        "PlayerName": "Aleksandar Kolarov",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 417,
+        "PlayerName": "Antonio Rukavina",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 418,
+        "PlayerName": "Matija Nastasic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 419,
+        "PlayerName": "Dusko Tosic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 420,
+        "PlayerName": "Nikola Maksimovic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 421,
+        "PlayerName": "Jagos Vukovic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 422,
+        "PlayerName": "Dusan Tadic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 423,
+        "PlayerName": "Sergej Milinkovic-Savic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 424,
+        "PlayerName": "Nemanja Matic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 425,
+        "PlayerName": "Luka Milivojevic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 426,
+        "PlayerName": "Adem Ljajic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 427,
+        "PlayerName": "Nemanja Gudelj",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 428,
+        "PlayerName": "Mijat Gacinovic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 429,
+        "PlayerName": "Filip Kostic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 430,
+        "PlayerName": "Aleksandar Mitrovic",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 431,
+        "PlayerName": "",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+  {
+    "CountryName": "Germany",
+    "CountryFlag": "../../assets/country-flags/germany.png",
+    "CountryId" : "1",
+    "CountryStickers": [
+      {
+        "StickerNumber": 432,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 433,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 434,
+        "PlayerName": "Manuel Neuer",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 435,
+        "PlayerName": "Mats Hummels",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 436,
+        "PlayerName": "Antonio Rudiger",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 437,
+        "PlayerName": "Jerome Boateng",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 438,
+        "PlayerName": "Joshua Kimmich",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 439,
+        "PlayerName": "Jonas Hector",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 440,
+        "PlayerName": "Julian Draxler",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 441,
+        "PlayerName": "Toni Kroos",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 442,
+        "PlayerName": "Emre Can",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 443,
+        "PlayerName": "Leon Goretzka",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 444,
+        "PlayerName": "Julian Brandt",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 445,
+        "PlayerName": "Sebastian Rudy",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 446,
+        "PlayerName": "Leroy Sane",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 447,
+        "PlayerName": "Mesut Ozil",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 448,
+        "PlayerName": "Sami Khedira",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 449,
+        "PlayerName": "Mario Gotze",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 450,
+        "PlayerName": "Thomas Muller",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 451,
+        "PlayerName": "Timo Werner",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+  {
+    "CountryName": "Mexico",
+    "CountryFlag": "../../assets/country-flags/mexico.png",
+    "CountryId" : "1",
+    "CountryStickers": [
+      {
+        "StickerNumber": 452,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 453,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 454,
+        "PlayerName": "Guillermo Ochoa",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 455,
+        "PlayerName": "Hugo Ayala",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 456,
+        "PlayerName": "Diego Reyes",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 457,
+        "PlayerName": "Hector Moreno",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 458,
+        "PlayerName": "Jesús Gallardo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 459,
+        "PlayerName": "Miguel Layun",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 460,
+        "PlayerName": "Carlos Salcedo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 461,
+        "PlayerName": "Jonathan dos Santos",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 462,
+        "PlayerName": "Giovani dos Santos",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 463,
+        "PlayerName": "Andrés Guardado",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 464,
+        "PlayerName": "Héctor Herrera",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 465,
+        "PlayerName": "Javier Aquino",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 466,
+        "PlayerName": "Jesus Corona",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 467,
+        "PlayerName": "Hirving Lozano",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 468,
+        "PlayerName": "Raul Jimenez",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 469,
+        "PlayerName": "Carlos Vela",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 470,
+        "PlayerName": "Javier Hernandez",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 471,
+        "PlayerName": "Oribe Peralta",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+  {
+    "CountryName": "Sweden",
+    "CountryFlag": "../../assets/country-flags/sweden.png",
+    "CountryId" : "1",
+    "CountryStickers": [
+      {
+        "StickerNumber": 472,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 473,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 474,
+        "PlayerName": "Robin Olsen",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 475,
+        "PlayerName": "Mikael Lustig",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 476,
+        "PlayerName": "Victor Nilsson Lindelof",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 477,
+        "PlayerName": "Andreas Granqvist",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 478,
+        "PlayerName": "Martin Olsson",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 479,
+        "PlayerName": "Ludwig Augustinsson",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 480,
+        "PlayerName": "Emil Krafth",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 481,
+        "PlayerName": "Pontus Jansson",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 482,
+        "PlayerName": "Sebastian Larsson",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 483,
+        "PlayerName": "Emil Forsberg",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 484,
+        "PlayerName": "Gustav Svensson",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 485,
+        "PlayerName": "Viktor Claesson",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 486,
+        "PlayerName": "Jimmy Durmaz",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 487,
+        "PlayerName": "Albin Ekdal",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 488,
+        "PlayerName": "Isaac Kiese Thelin",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 489,
+        "PlayerName": "Marcus Berg",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 490,
+        "PlayerName": "John Guidetti",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 491,
+        "PlayerName": "Ola Toivonen",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+
+  {
+    "CountryName": "Korea",
+    "CountryFlag": "../../assets/country-flags/korea.png",
+    "CountryId" : "1",
+    "CountryStickers": [
+      {
+        "StickerNumber": 492,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 493,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 494,
+        "PlayerName": "Kim Seung-gyu",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 495,
+        "PlayerName": "Kim Young-gwon",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 496,
+        "PlayerName": "Kim Jin-su",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 497,
+        "PlayerName": "Kwak Tae-hwi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 498,
+        "PlayerName": "Hong Jeong-ho",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 499,
+        "PlayerName": "Jang Hyun-soo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 500,
+        "PlayerName": "Koo Ja-cheol",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 501,
+        "PlayerName": "Kwon Chang-hoon",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 502,
+        "PlayerName": "Ki Sung-yueng",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 503,
+        "PlayerName": "Nam Tae-hee",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 504,
+        "PlayerName": "Han Kook-young",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 505,
+        "PlayerName": "Lee Chung-yong",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 506,
+        "PlayerName": "Jung Woo-young",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 507,
+        "PlayerName": "Lee Jae-sung",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 508,
+        "PlayerName": "Son Heung-min",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 509,
+        "PlayerName": "Ji Dong-won",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 510,
+        "PlayerName": "Kim Shin-wook ",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 511,
+        "PlayerName": "Hwang Hee-chan",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+  {
+    "CountryName": "Belgium",
+    "CountryFlag": "../../assets/country-flags/belgium.png",
+    "CountryId" : "1",
+    "CountryStickers": [
+      {
+        "StickerNumber": 512,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 513,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 514,
+        "PlayerName": "Thibaut Courtois",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 515,
+        "PlayerName": "Toby Alderweireld",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 516,
+        "PlayerName": "Thomas Vermaelen",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 517,
+        "PlayerName": "Jan Vertonghen",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 518,
+        "PlayerName": "Vincent Kompany",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 519,
+        "PlayerName": "Thomas Meunier",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 520,
+        "PlayerName": "Axel Witsel",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 521,
+        "PlayerName": "Radja Nainggolan",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 522,
+        "PlayerName": "Kevin De Bruyne",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 523,
+        "PlayerName": "Marouane Fellaini",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 524,
+        "PlayerName": "Youri Tielemans",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 525,
+        "PlayerName": "Mousa Dembele",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 526,
+        "PlayerName": "Nacer Chadli",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 527,
+        "PlayerName": "Eden Hazard",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 528,
+        "PlayerName": "Yannick Carrasco",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 529,
+        "PlayerName": "Dries Mertens",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 530,
+        "PlayerName": "Michy Batshuay",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 531,
+        "PlayerName": "Romelu Lukaku",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+  {
     "CountryName": "Panama",
-    "CountryFlag": "../../assets/country-flags/colombia.png",
+    "CountryFlag": "../../assets/country-flags/panama.png",
     "CountryId" : "1",
     "CountryStickers": [
       {
@@ -129,7 +892,7 @@
 
   {
     "CountryName": "Tunisia",
-    "CountryFlag": "../../assets/country-flags/colombia.png",
+    "CountryFlag": "../../assets/country-flags/tunisia.png",
     "CountryId" : "1",
     "CountryStickers": [
       {
@@ -257,7 +1020,7 @@
 
   {
     "CountryName": "England",
-    "CountryFlag": "../../assets/country-flags/colombia.png",
+    "CountryFlag": "../../assets/country-flags/england.png",
     "CountryId" : "1",
     "CountryStickers": [
       {
@@ -384,7 +1147,7 @@
   },
   {
     "CountryName": "Poland",
-    "CountryFlag": "../../assets/country-flags/colombia.png",
+    "CountryFlag": "../../assets/country-flags/poland.png",
     "CountryId" : "1",
     "CountryStickers": [
       {
@@ -511,7 +1274,7 @@
   },
   {
     "CountryName": "Senegal",
-    "CountryFlag": "../../assets/country-flags/colombia.png",
+    "CountryFlag": "../../assets/country-flags/senegal.png",
     "CountryId" : "1",
     "CountryStickers": [
       {
