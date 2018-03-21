@@ -1,7 +1,17 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Missing Stickers
+    <div style="float: left">
+      <ion-buttons start>
+        <button ion-button icon-only menuToggle>
+          <ion-icon name="menu"></ion-icon>
+        </button>
+      </ion-buttons>
+    </div>
+
+    <ion-title style="margin-top: 1%">
+      <div style="float: left">
+        Missing Stickers
+      </div>
       <div style="float: right">
         {{missingStickers}}/{{allStickers}}
       </div>
@@ -22,7 +32,7 @@
     <ion-grid>
       <ion-row>
         <ng-container *ngFor="let player of country.CountryStickers; let j = index">
-        <ion-col *ngIf="player.visible" (click)="removeSticker(i,j)" col-2>
+        <ion-col *ngIf="player.missing" (click)="removeSticker(i,j)" col-2>
           <ion-card>
             <img
               src="{{country.CountryFlag}}"/>

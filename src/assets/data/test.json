@@ -1,1724 +1,722 @@
-[
-  {
-    "CountryName": "Serbia",
-    "CountryFlag": "../../assets/country-flags/serbia.png",
+[{
+    "CountryName": "Intro",
+    "CountryFlag": "assets/country-flags/intro.png",
     "CountryId" : "1",
     "CountryStickers": [
       {
-        "StickerNumber": 412,
-        "PlayerName": "Team Logo",
+        "StickerNumber": 0,
+        "PlayerName": "Panini Logo",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 413,
-        "PlayerName": "Team Photo",
+        "StickerNumber": 1,
+        "PlayerName": "FIFA Logo",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 414,
-        "PlayerName": "Vladimir Stojkovic",
+        "StickerNumber": 2,
+        "PlayerName": "World Cup Trophy",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 415,
-        "PlayerName": "Branislav Ivanovic",
+        "StickerNumber": 3,
+        "PlayerName": "2018 World Cup Graphic 1",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 416,
-        "PlayerName": "Aleksandar Kolarov",
+        "StickerNumber": 4,
+        "PlayerName": "2018 World Cup Graphic 2",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 417,
-        "PlayerName": "Antonio Rukavina",
+        "StickerNumber": 5,
+        "PlayerName": "2018 World Cup Logo 1",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 418,
-        "PlayerName": "Matija Nastasic",
+        "StickerNumber": 6,
+        "PlayerName": "2018 World Cup Logo 2",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 419,
-        "PlayerName": "Dusko Tosic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 420,
-        "PlayerName": "Nikola Maksimovic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 421,
-        "PlayerName": "Jagos Vukovic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 422,
-        "PlayerName": "Dusan Tadic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 423,
-        "PlayerName": "Sergej Milinkovic-Savic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 424,
-        "PlayerName": "Nemanja Matic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 425,
-        "PlayerName": "Luka Milivojevic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 426,
-        "PlayerName": "Adem Ljajic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 427,
-        "PlayerName": "Nemanja Gudelj",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 428,
-        "PlayerName": "Mijat Gacinovic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 429,
-        "PlayerName": "Filip Kostic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 430,
-        "PlayerName": "Aleksandar Mitrovic",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 431,
-        "PlayerName": "",
+        "StickerNumber": 7,
+        "PlayerName": "Official Ball",
         "missing" : true,
         "duplicate" : false
       }
     ]
   },
   {
-    "CountryName": "Germany",
-    "CountryFlag": "../../assets/country-flags/germany.png",
-    "CountryId" : "1",
+    "CountryName": "Stadiums",
+    "CountryFlag": "assets/country-flags/stadiums.png",
+    "CountryId" : "2",
     "CountryStickers": [
       {
-        "StickerNumber": 432,
-        "PlayerName": "Team Logo",
+        "StickerNumber": 8,
+        "PlayerName": "Ekaterinburg Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 433,
-        "PlayerName": "Team Photo",
+        "StickerNumber": 9,
+        "PlayerName": "Kaliningrad Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 434,
-        "PlayerName": "Manuel Neuer",
+        "StickerNumber": 10,
+        "PlayerName": "Kazan Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 435,
-        "PlayerName": "Mats Hummels",
+        "StickerNumber": 11,
+        "PlayerName": "Spartak Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 436,
-        "PlayerName": "Antonio Rudiger",
+        "StickerNumber": 12,
+        "PlayerName": "Nizhny Novgorod Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 437,
-        "PlayerName": "Jerome Boateng",
+        "StickerNumber": 13,
+        "PlayerName": "Luzhniki Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 438,
-        "PlayerName": "Joshua Kimmich",
+        "StickerNumber": 14,
+        "PlayerName": "Rostov Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 439,
-        "PlayerName": "Jonas Hector",
+        "StickerNumber": 15,
+        "PlayerName": "Saint Petersburg Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 440,
-        "PlayerName": "Julian Draxler",
+        "StickerNumber": 16,
+        "PlayerName": "Samara Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 441,
-        "PlayerName": "Toni Kroos",
+        "StickerNumber": 17,
+        "PlayerName": "Mordovia Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 442,
-        "PlayerName": "Emre Can",
+        "StickerNumber": 18,
+        "PlayerName": "Fisht Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 443,
-        "PlayerName": "Leon Goretzka",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 444,
-        "PlayerName": "Julian Brandt",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 445,
-        "PlayerName": "Sebastian Rudy",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 446,
-        "PlayerName": "Leroy Sane",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 447,
-        "PlayerName": "Mesut Ozil",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 448,
-        "PlayerName": "Sami Khedira",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 449,
-        "PlayerName": "Mario Gotze",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 450,
-        "PlayerName": "Thomas Muller",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 451,
-        "PlayerName": "Timo Werner",
+        "StickerNumber": 19,
+        "PlayerName": "Volgograd Arena",
         "missing" : true,
         "duplicate" : false
       }
     ]
   },
   {
-    "CountryName": "Mexico",
-    "CountryFlag": "../../assets/country-flags/mexico.png",
-    "CountryId" : "1",
+    "CountryName": "Host City Posters",
+    "CountryFlag": "assets/country-flags/posters.png",
+    "CountryId" : "3",
     "CountryStickers": [
       {
-        "StickerNumber": 452,
-        "PlayerName": "Team Logo",
+        "StickerNumber": 20,
+        "PlayerName": "Ekaterinburg Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 453,
-        "PlayerName": "Team Photo",
+        "StickerNumber": 21,
+        "PlayerName": "Kaliningrad Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 454,
-        "PlayerName": "Guillermo Ochoa",
+        "StickerNumber": 22,
+        "PlayerName": "Kazan Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 455,
-        "PlayerName": "Hugo Ayala",
+        "StickerNumber": 23,
+        "PlayerName": "Spartak Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 456,
-        "PlayerName": "Diego Reyes",
+        "StickerNumber": 24,
+        "PlayerName": "Nizhny Novgorod Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 457,
-        "PlayerName": "Hector Moreno",
+        "StickerNumber": 25,
+        "PlayerName": "Luzhniki Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 458,
-        "PlayerName": "Jesús Gallardo",
+        "StickerNumber": 26,
+        "PlayerName": "Rostov Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 459,
-        "PlayerName": "Miguel Layun",
+        "StickerNumber": 27,
+        "PlayerName": "Saint Petersburg Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 460,
-        "PlayerName": "Carlos Salcedo",
+        "StickerNumber": 28,
+        "PlayerName": "Samara Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 461,
-        "PlayerName": "Jonathan dos Santos",
+        "StickerNumber": 29,
+        "PlayerName": "Mordovia Arena",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 462,
-        "PlayerName": "Giovani dos Santos",
+        "StickerNumber": 30,
+        "PlayerName": "Fisht Stadium",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 463,
-        "PlayerName": "Andrés Guardado",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 464,
-        "PlayerName": "Héctor Herrera",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 465,
-        "PlayerName": "Javier Aquino",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 466,
-        "PlayerName": "Jesus Corona",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 467,
-        "PlayerName": "Hirving Lozano",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 468,
-        "PlayerName": "Raul Jimenez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 469,
-        "PlayerName": "Carlos Vela",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 470,
-        "PlayerName": "Javier Hernandez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 471,
-        "PlayerName": "Oribe Peralta",
+        "StickerNumber": 31,
+        "PlayerName": "Volgograd Arena",
         "missing" : true,
         "duplicate" : false
       }
     ]
   },
   {
-    "CountryName": "Sweden",
-    "CountryFlag": "../../assets/country-flags/sweden.png",
-    "CountryId" : "1",
+    "CountryName": "Russia",
+    "CountryFlag": "assets/country-flags/russia.png",
+    "CountryId" : "4",
     "CountryStickers": [
       {
-        "StickerNumber": 472,
+        "StickerNumber": 32,
         "PlayerName": "Team Logo",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 473,
+        "StickerNumber": 33,
         "PlayerName": "Team Photo",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 474,
-        "PlayerName": "Robin Olsen",
+        "StickerNumber": 34,
+        "PlayerName": "Igor Akinfeev",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 475,
-        "PlayerName": "Mikael Lustig",
+        "StickerNumber": 35,
+        "PlayerName": "Igor Smolnikov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 476,
-        "PlayerName": "Victor Nilsson Lindelof",
+        "StickerNumber": 36,
+        "PlayerName": "Viktor Vasin",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 477,
-        "PlayerName": "Andreas Granqvist",
+        "StickerNumber": 37,
+        "PlayerName": "Mário Fernandes",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 478,
-        "PlayerName": "Martin Olsson",
+        "StickerNumber": 38,
+        "PlayerName": "Fedor Kudryashov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 479,
-        "PlayerName": "Ludwig Augustinsson",
+        "StickerNumber": 39,
+        "PlayerName": "Ilya Kutepov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 480,
-        "PlayerName": "Emil Krafth",
+        "StickerNumber": 40,
+        "PlayerName": "Dmitri Kombarov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 481,
-        "PlayerName": "Pontus Jansson",
+        "StickerNumber": 41,
+        "PlayerName": "Aleksei Miranchuk",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 482,
-        "PlayerName": "Sebastian Larsson",
+        "StickerNumber": 42,
+        "PlayerName": "Denis Glushakov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 483,
-        "PlayerName": "Emil Forsberg",
+        "StickerNumber": 43,
+        "PlayerName": "Aleksandr Golovin",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 484,
-        "PlayerName": "Gustav Svensson",
+        "StickerNumber": 44,
+        "PlayerName": "Yuri Zhirkov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 485,
-        "PlayerName": "Viktor Claesson",
+        "StickerNumber": 45,
+        "PlayerName": "Aleksandr Samedov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 486,
-        "PlayerName": "Jimmy Durmaz",
+        "StickerNumber": 46,
+        "PlayerName": "Aleksandr Erokhin",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 487,
-        "PlayerName": "Albin Ekdal",
+        "StickerNumber": 47,
+        "PlayerName": "Alan Dzagoev",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 488,
-        "PlayerName": "Isaac Kiese Thelin",
+        "StickerNumber": 48,
+        "PlayerName": "Daler Kuzyayev",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 489,
-        "PlayerName": "Marcus Berg",
+        "StickerNumber": 49,
+        "PlayerName": "Dmitry Poloz",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 490,
-        "PlayerName": "John Guidetti",
+        "StickerNumber": 50,
+        "PlayerName": "Fedor Smolov",
         "missing" : true,
         "duplicate" : false
       },
       {
-        "StickerNumber": 491,
-        "PlayerName": "Ola Toivonen",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-
-  {
-    "CountryName": "Korea",
-    "CountryFlag": "../../assets/country-flags/korea.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 492,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 493,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 494,
-        "PlayerName": "Kim Seung-gyu",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 495,
-        "PlayerName": "Kim Young-gwon",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 496,
-        "PlayerName": "Kim Jin-su",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 497,
-        "PlayerName": "Kwak Tae-hwi",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 498,
-        "PlayerName": "Hong Jeong-ho",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 499,
-        "PlayerName": "Jang Hyun-soo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 500,
-        "PlayerName": "Koo Ja-cheol",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 501,
-        "PlayerName": "Kwon Chang-hoon",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 502,
-        "PlayerName": "Ki Sung-yueng",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 503,
-        "PlayerName": "Nam Tae-hee",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 504,
-        "PlayerName": "Han Kook-young",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 505,
-        "PlayerName": "Lee Chung-yong",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 506,
-        "PlayerName": "Jung Woo-young",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 507,
-        "PlayerName": "Lee Jae-sung",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 508,
-        "PlayerName": "Son Heung-min",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 509,
-        "PlayerName": "Ji Dong-won",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 510,
-        "PlayerName": "Kim Shin-wook ",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 511,
-        "PlayerName": "Hwang Hee-chan",
+        "StickerNumber": 51,
+        "PlayerName": "Aleksandr Kokorin",
         "missing" : true,
         "duplicate" : false
       }
     ]
   },
   {
-    "CountryName": "Belgium",
-    "CountryFlag": "../../assets/country-flags/belgium.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 512,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 513,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 514,
-        "PlayerName": "Thibaut Courtois",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 515,
-        "PlayerName": "Toby Alderweireld",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 516,
-        "PlayerName": "Thomas Vermaelen",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 517,
-        "PlayerName": "Jan Vertonghen",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 518,
-        "PlayerName": "Vincent Kompany",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 519,
-        "PlayerName": "Thomas Meunier",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 520,
-        "PlayerName": "Axel Witsel",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 521,
-        "PlayerName": "Radja Nainggolan",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 522,
-        "PlayerName": "Kevin De Bruyne",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 523,
-        "PlayerName": "Marouane Fellaini",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 524,
-        "PlayerName": "Youri Tielemans",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 525,
-        "PlayerName": "Mousa Dembele",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 526,
-        "PlayerName": "Nacer Chadli",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 527,
-        "PlayerName": "Eden Hazard",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 528,
-        "PlayerName": "Yannick Carrasco",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 529,
-        "PlayerName": "Dries Mertens",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 530,
-        "PlayerName": "Michy Batshuay",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 531,
-        "PlayerName": "Romelu Lukaku",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-  {
-    "CountryName": "Panama",
-    "CountryFlag": "../../assets/country-flags/panama.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 532,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 533,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 534,
-        "PlayerName": "Jaime Penedo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 535,
-        "PlayerName": "Jose Calderon",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 536,
-        "PlayerName": "Michael Murillo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 537,
-        "PlayerName": "Fidel Escobar",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 538,
-        "PlayerName": "Roman Torres",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 539,
-        "PlayerName": "Adolfo Machado",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 540,
-        "PlayerName": "Eric Davis",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 541,
-        "PlayerName": "Luis Ovalle",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 542,
-        "PlayerName": "Felipe Baloy",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 543,
-        "PlayerName": "Gabriel Gomez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 544,
-        "PlayerName": "Edgar Barcenas",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 545,
-        "PlayerName": "Armando Cooper",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 546,
-        "PlayerName": "Alberto Quintero",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 547,
-        "PlayerName": "Aníbal Godoy",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 548,
-        "PlayerName": "Blas Perez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 549,
-        "PlayerName": "Gabriel Torres",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 550,
-        "PlayerName": "Luis Tejada",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 551,
-        "PlayerName": "Abdiel Arroyo",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-
-  {
-    "CountryName": "Tunisia",
-    "CountryFlag": "../../assets/country-flags/tunisia.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 552,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 553,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 554,
-        "PlayerName": "Aymen Mathlouthi",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 555,
-        "PlayerName": "Ali Maaloul",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 556,
-        "PlayerName": "Syam Ben Youssef",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 557,
-        "PlayerName": "Aymen Abdennour",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 558,
-        "PlayerName": "Hamdi Nagguez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 559,
-        "PlayerName": "Yassine Meriah",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 560,
-        "PlayerName": "Oussama Haddadi",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 561,
-        "PlayerName": "Ferjani Sassi",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 562,
-        "PlayerName": "Wahbi Khazri",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 563,
-        "PlayerName": "Mohamed Amine Ben Amor",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 564,
-        "PlayerName": "Ghailene Chaalali",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 565,
-        "PlayerName": "Naim Sliti",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 566,
-        "PlayerName": "Youssef Msakni",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 567,
-        "PlayerName": "Fakhreddine Ben Youssef",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 568,
-        "PlayerName": "Taha Yassine Khenissi",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 569,
-        "PlayerName": "Yoann Touzghar",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 570,
-        "PlayerName": "Anice Badri",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 571,
-        "PlayerName": "Ahmed Akaichi",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-
-  {
-    "CountryName": "England",
-    "CountryFlag": "../../assets/country-flags/england.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 572,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 573,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 574,
-        "PlayerName": "Joe Hart",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 575,
-        "PlayerName": "Jordan Pickford",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 576,
-        "PlayerName": "Gary Cahill",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 577,
-        "PlayerName": "Kyle Walker",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 578,
-        "PlayerName": "John Stones",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 579,
-        "PlayerName": "Ryan Bertrand",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 580,
-        "PlayerName": "Danny Rose",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 581,
-        "PlayerName": "Phil Jones",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 582,
-        "PlayerName": "Jordan Henderson",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 583,
-        "PlayerName": "Alex Oxlade-Chamberlain",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 584,
-        "PlayerName": "Dele Alli",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 585,
-        "PlayerName": "Eric Dier",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 586,
-        "PlayerName": "Adam Lallana",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 587,
-        "PlayerName": "Jesse Lingard",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 588,
-        "PlayerName": "Raheem Sterling",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 589,
-        "PlayerName": "Harry Kane",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 590,
-        "PlayerName": "Marcus Rashford",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 591,
-        "PlayerName": "Jamie Vardy",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-  {
-    "CountryName": "Poland",
-    "CountryFlag": "../../assets/country-flags/poland.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 592,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 593,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 594,
-        "PlayerName": "Lukasz Fabianski",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 595,
-        "PlayerName": "Wojciech Szczesny",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 596,
-        "PlayerName": "Lukasz Piszczek",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 597,
-        "PlayerName": "Kamil Glik",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 598,
-        "PlayerName": "Michal Pazdan",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 599,
-        "PlayerName": "Thiago Cionek",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 600,
-        "PlayerName": "Bartosz Bereszynski",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 601,
-        "PlayerName": "Artur Jedrzejczyk",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 602,
-        "PlayerName": "Maciej Rybus",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 603,
-        "PlayerName": "Jakub Blaszczykowski",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 604,
-        "PlayerName": "Kamil Grosicki ",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 605,
-        "PlayerName": "Grzegorz Krychowiak",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 606,
-        "PlayerName": "Krzysztof Maczynski ",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 607,
-        "PlayerName": "Piotr Zielinski",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 608,
-        "PlayerName": "Karol Linetty",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 609,
-        "PlayerName": "Robert Lewandowski",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 610,
-        "PlayerName": "Lukasz Teodorczyk",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 611,
-        "PlayerName": "Arkadiusz Milik",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-  {
-    "CountryName": "Senegal",
-    "CountryFlag": "../../assets/country-flags/senegal.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 612,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 613,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 614,
-        "PlayerName": "Khadim N'Diaye",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 615,
-        "PlayerName": "Kara Mbodji",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 616,
-        "PlayerName": "Lamine Gassama",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 617,
-        "PlayerName": "Kalidou Koulibaly",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 618,
-        "PlayerName": "Salif Sane",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 619,
-        "PlayerName": "Saliou Ciss",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 620,
-        "PlayerName": "Moussa Wague",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 621,
-        "PlayerName": "Idrissa Gueye",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 622,
-        "PlayerName": "Cheikhou Kouyate",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 623,
-        "PlayerName": "Cheikh Ndoye",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 624,
-        "PlayerName": "Pape Alioune N'Diaye",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 625,
-        "PlayerName": "Sadio Mane",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 626,
-        "PlayerName": "Moussa Sow",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 627,
-        "PlayerName": "Moussa Konate",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 628,
-        "PlayerName": "Keita Balde",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 629,
-        "PlayerName": "M'Baye Niang",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 630,
-        "PlayerName": "Ismaila Sarr",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 631,
-        "PlayerName": "Mame Diouf",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-  {
-    "CountryName": "Colombia",
-    "CountryFlag": "../../assets/country-flags/colombia.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 632,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 633,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 634,
-        "PlayerName": "David Ospina",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 635,
-        "PlayerName": "Cristian Zapata",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 636,
-        "PlayerName": "Santiago Arias",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 637,
-        "PlayerName": "Frank Fabra",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 638,
-        "PlayerName": "Davinson Sanchez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 639,
-        "PlayerName": "Yerry Mina",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 640,
-        "PlayerName": "Carlos Sanchez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 641,
-        "PlayerName": "Juan Guillermo Cuadrado",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 642,
-        "PlayerName": "Abel Aguilar",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 643,
-        "PlayerName": "James Rodriguez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 644,
-        "PlayerName": "Giovanni Moreno",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 645,
-        "PlayerName": "Wílmar Barrios",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 646,
-        "PlayerName": "Radamel Falcao Garcia",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 647,
-        "PlayerName": "Teófilo Gutierrez",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 648,
-        "PlayerName": "Carlos Bacca",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 649,
-        "PlayerName": "Edwin Cardona",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 650,
-        "PlayerName": "Yimmi Chara",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 651,
-        "PlayerName": "Duvan Zapata",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-  {
-    "CountryName": "Japan",
-    "CountryFlag": "../../assets/country-flags/japan.png",
-    "CountryId" : "1",
-    "CountryStickers": [
-      {
-        "StickerNumber": 652,
-        "PlayerName": "Team Logo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 653,
-        "PlayerName": "Team Photo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 654,
-        "PlayerName": "Eiji Kawashima",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 655,
-        "PlayerName": "Shusaku Nishikawa",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 656,
-        "PlayerName": "Masato Morishige",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 657,
-        "PlayerName": "Yuto Nagatomo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 658,
-        "PlayerName": "Hiroki Sakai",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 659,
-        "PlayerName": "Tomoaki Makino",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 660,
-        "PlayerName": "Gōtoku Sakai",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 661,
-        "PlayerName": "Maya Yoshida ",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 662,
-        "PlayerName": "Hotaru Yamaguch",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 663,
-        "PlayerName": "Shinji Kagawa",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 664,
-        "PlayerName": "Makoto Hasebe",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 665,
-        "PlayerName": "Hiroshi Kiyotake",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 666,
-        "PlayerName": "Keisuke Honda",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 667,
-        "PlayerName": "Takashi Usami",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 668,
-        "PlayerName": "Genki Haraguch",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 669,
-        "PlayerName": "Shinji Okazaki",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 670,
-        "PlayerName": "Yuya Kubo",
-        "missing" : true,
-        "duplicate" : false
-      },
-      {
-        "StickerNumber": 671,
-        "PlayerName": "Yuya Osako",
-        "missing" : true,
-        "duplicate" : false
-      }
-    ]
-  },
-  {
-  "CountryName": "World Cup Legends",
-  "CountryFlag": "../../assets/country-flags/legends.png",
-  "CountryId" : "1",
+  "CountryName": "Saudi Arabia",
+  "CountryFlag": "assets/country-flags/saudiarabia.png",
+  "CountryId" : "5",
   "CountryStickers": [
     {
-      "StickerNumber": 672,
-      "PlayerName": "Brazil",
+      "StickerNumber": 52,
+      "PlayerName": "Team Logo",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 673,
-      "PlayerName": "Germany",
+      "StickerNumber": 53,
+      "PlayerName": "Team Photo",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 674,
-      "PlayerName": "Italy",
+      "StickerNumber": 54,
+      "PlayerName": "Abdullah Al-Mayouf",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 675,
-      "PlayerName": "Ururguay",
+      "StickerNumber": 55,
+      "PlayerName": "Osama Hawsawi",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 676,
-      "PlayerName": "Argentina",
+      "StickerNumber": 56,
+      "PlayerName": "Abdullah Al-Zori",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 677,
-      "PlayerName": "England",
+      "StickerNumber": 57,
+      "PlayerName": "Mansoor Al-Harbi",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 678,
-      "PlayerName": "France",
+      "StickerNumber": 58,
+      "PlayerName": "Omar Hawsawi",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 679,
-      "PlayerName": "Spain",
+      "StickerNumber": 59,
+      "PlayerName": "Yasser Al-Shahrani",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 680,
-      "PlayerName": "Pele - Brazil",
+      "StickerNumber": 60,
+      "PlayerName": "Motaz Hawsawi",
       "missing" : true,
       "duplicate" : false
     },
     {
-      "StickerNumber": 681,
-      "PlayerName": "Mirolsav Klose - Germany",
+      "StickerNumber": 61,
+      "PlayerName": "Mohammed Al-Breik",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 62,
+      "PlayerName": "Taisir Al-Jassim",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 63,
+      "PlayerName": "Salman Al-Faraj",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 64,
+      "PlayerName": "Abdulmalek Al-Khaibri",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 65,
+      "PlayerName": "Salman Al-Moasher",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 66,
+      "PlayerName": "Yahya Al-Shehri",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 67,
+      "PlayerName": "Salem Al-Dawsari",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 68,
+      "PlayerName": "Nawaf Al-Abed",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 69,
+      "PlayerName": "Mohammad Al-Sahlawi",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 70,
+      "PlayerName": "Nasser Al-Shamrani",
+      "missing" : true,
+      "duplicate" : false
+    },
+    {
+      "StickerNumber": 71,
+      "PlayerName": "Fahad Al-Muwallad",
       "missing" : true,
       "duplicate" : false
     }
   ]
-}
-
-]
+},
+  {
+    "CountryName": "Saudi Arabia",
+    "CountryFlag": "assets/country-flags/saudiarabia.png",
+    "CountryId" : "5",
+    "CountryStickers": [
+      {
+        "StickerNumber": 52,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 53,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 54,
+        "PlayerName": "Abdullah Al-Mayouf",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 55,
+        "PlayerName": "Osama Hawsawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 56,
+        "PlayerName": "Abdullah Al-Zori",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 57,
+        "PlayerName": "Mansoor Al-Harbi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 58,
+        "PlayerName": "Omar Hawsawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 59,
+        "PlayerName": "Yasser Al-Shahrani",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 60,
+        "PlayerName": "Motaz Hawsawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 61,
+        "PlayerName": "Mohammed Al-Breik",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 62,
+        "PlayerName": "Taisir Al-Jassim",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 63,
+        "PlayerName": "Salman Al-Faraj",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 64,
+        "PlayerName": "Abdulmalek Al-Khaibri",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 65,
+        "PlayerName": "Salman Al-Moasher",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 66,
+        "PlayerName": "Yahya Al-Shehri",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 67,
+        "PlayerName": "Salem Al-Dawsari",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 68,
+        "PlayerName": "Nawaf Al-Abed",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 69,
+        "PlayerName": "Mohammad Al-Sahlawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 70,
+        "PlayerName": "Nasser Al-Shamrani",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 71,
+        "PlayerName": "Fahad Al-Muwallad",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  },
+  {
+    "CountryName": "Saudi Arabia",
+    "CountryFlag": "assets/country-flags/saudiarabia.png",
+    "CountryId" : "5",
+    "CountryStickers": [
+      {
+        "StickerNumber": 52,
+        "PlayerName": "Team Logo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 53,
+        "PlayerName": "Team Photo",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 54,
+        "PlayerName": "Abdullah Al-Mayouf",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 55,
+        "PlayerName": "Osama Hawsawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 56,
+        "PlayerName": "Abdullah Al-Zori",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 57,
+        "PlayerName": "Mansoor Al-Harbi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 58,
+        "PlayerName": "Omar Hawsawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 59,
+        "PlayerName": "Yasser Al-Shahrani",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 60,
+        "PlayerName": "Motaz Hawsawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 61,
+        "PlayerName": "Mohammed Al-Breik",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 62,
+        "PlayerName": "Taisir Al-Jassim",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 63,
+        "PlayerName": "Salman Al-Faraj",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 64,
+        "PlayerName": "Abdulmalek Al-Khaibri",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 65,
+        "PlayerName": "Salman Al-Moasher",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 66,
+        "PlayerName": "Yahya Al-Shehri",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 67,
+        "PlayerName": "Salem Al-Dawsari",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 68,
+        "PlayerName": "Nawaf Al-Abed",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 69,
+        "PlayerName": "Mohammad Al-Sahlawi",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 70,
+        "PlayerName": "Nasser Al-Shamrani",
+        "missing" : true,
+        "duplicate" : false
+      },
+      {
+        "StickerNumber": 71,
+        "PlayerName": "Fahad Al-Muwallad",
+        "missing" : true,
+        "duplicate" : false
+      }
+    ]
+  }
+  ]

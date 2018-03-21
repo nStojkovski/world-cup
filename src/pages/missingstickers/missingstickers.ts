@@ -21,14 +21,13 @@ export class MissingStickersPage implements OnInit {
 
 
   ionViewDidEnter(){
-    console.log(this.firstAppRun);
     if(!this.firstAppRun){
       this.getAllStickers();
     }
   }
 
  async ngOnInit() {
-   this.populateCountriesList();
+   await this.populateCountriesList();
   }
 
 
@@ -40,12 +39,12 @@ export class MissingStickersPage implements OnInit {
       this.storage.get('appFirstRun').then((val) => {
         if (val != null) {
           this.storage.set("appFirstRun", false);
-          for (let i = 0; i < 3; i++) {
+          for (let i = 0; i < this.countries.length; i++) {
             this.storage.set(this.countries[i].CountryId, this.countries[i]);
           }
         }
         else {
-          for (let i = 0; i < 3; i++) {
+          for (let i = 0; i < this.countries.length; i++) {
             this.storage.get(this.countries[i].CountryId).then((val) => {
               this.countries[i] = val;
             });
@@ -59,7 +58,8 @@ export class MissingStickersPage implements OnInit {
   }
 
   public removeSticker(i, j) {
-    this.countries[i].CountryStickers[j].visible = false;
+    console.log("Ressdadas");
+    this.countries[i].CountryStickers[j].missing = false;
     this.setDatabaseForCurrentElement(i);
 
   }
@@ -85,13 +85,13 @@ export class MissingStickersPage implements OnInit {
     let allPerCountry = 0;
     this.all = [];
     this.missing = [];
-    for(let i=0; i<3; i++){
+    for(let i=0; i<this.countries.length; i++){
       this.storage.get(this.countries[i].CountryId).then(
         (value => {
           missingPerCountry = 0;
           allPerCountry = value.CountryStickers.length;
           for(let j=0; j<value.CountryStickers.length; j++){
-            if(value.CountryStickers[j].visible){
+            if(value.CountryStickers[j].missing){
               missingPerCountry++;
             }
           }
